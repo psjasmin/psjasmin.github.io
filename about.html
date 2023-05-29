@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <title>About</title>
+
+    <!-- GOOGLE FONTS -->
+    <!-- Body text font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <!-- Header text font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Icons Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet (CSS Animations)-->
+    <link href="animation-library/animate/animate.min.css" rel="stylesheet">
+    <link href="animation-library/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main CSS Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Spinner (Loading Screen) -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+
+    <header>
+        <!--NAVIGATIONAL BAR-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <!--Website Logo (Minecraft)-->
+            <img class="logo-primary m-0" src="images/main-logo.png" alt="Minecraft Logo">
+
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="how-to-play.html" class="nav-item nav-link">How to Play</a>
+                    <a href="mobs.html" class="nav-item nav-link">Mobs</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <!-- Download Now -->
+                <div class="d-none d-lg-flex">
+                    <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                        <a class="text-center" href="https://www.minecraft.net/en-us/get-minecraft" target="_blank">
+                            <img src="images/dirt-block.png" alt="Minecraft Download Button">
+                        </a>
+                    </div>
+                    <div class="ps-3">
+                        <small class="text-primary mb-0">Get Minecraft</small>
+                        <p class="text-uppercase text-light fs-5 mb-0">Download Now</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--PAGE HEADER (page cover/title/page details)-->
+        <section class="wow fadeIn" data-wow-delay="0.1s">
+            <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="container text-center pt-5 pb-3">
+                    <h1 class="display-4 text-white animated slideInDown mb-3">About the Game</h1>
+                    <p class="text-light">With new games, new updates, and new ways to play, <br><span
+                            class="text-primary">Learn more about one of the biggest communities in gaming!</span></p>
+                </div>
+            </div>
+            <img class="extra wow fadeIn" data-wow-delay="0.1s" src="images/texture-bg-1.png" alt="Texture Background">
+        </section>
+    </header>
+
+    <!--MAIN CONTENT-->
+    <main>
+        <!--FACT NUMBER COUNTER-->
+        <section class="container-xxl py-0">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="bg-white rounded text-center h-100 p-5">
+                            <!--When was Minecraft first launched?-->
+                            <img class="facts mb-4" src="images/first-launched.png"
+                                alt="Minecraft was first launched in May 2009">
+                            <p class="text-primary mb-2">First Launched</p>
+                            <h1 class="text-success display-5 mb-0" data-toggle="counter-up">2009</h1> <!--counter-->
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+                        <!--Active Players for the Game-->
+                        <div class="bg-white rounded text-center h-100 p-5">
+                            <img class="users mb-4" src="images/users-total.png"
+                                alt="Minecraft was first launched in May 2009">
+                            <p class="text-primary mb-2">Active Players</p>
+                            <h1 class="text-success display-5 mb-0" data-toggle="counter-up">140,000,000</h1> 
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
+                        <!--Number of Developers for the Game-->
+                        <div class="bg-white rounded text-center h-100 p-5">
+                            <img class="facts mb-4" src="images/developers.png"
+                                alt="As of 2021, Mojang Studios employs approximately 600 people.">
+                            <p class="text-primary mb-2">Developers</p>
+                            <h1 class="text-success display-5 mb-0" data-toggle="counter-up">600</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS IN THE GAME -->
+        <img class="extra-up" src="images/texture-bg-2.png" alt="Texture Background">
+        <section class="container-xxl bg-primary py-6">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                    <h1 class="text-light display-6 mb-4">Minecraft Milestones</h1>
+                    <p class="text-primary mb-2">Test your limits with some of the difficult advancements <br>within the
+                        game</p>
+                </div>
+                <div class="row g-4">
+                    <!-- Minecraft Achievement #1 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="community-item text-center rounded overflow-hidden">
+                            <img class="img-fluid" src="images/achievement-1.jpg" alt="Achievement #1: Passing the Time">
+                            <div class="community-text">
+                                <div class="community-title">
+                                    <h5 class="text-light">Passing the Time</h5>
+                                    <span class="text-info">100 Days of Minecraft</span>
+                                </div>
+                                <div class="community-social">
+                                    <p class="text-light text-center lh-1 my-3 p-3">Does not require any special work or
+                                        skill. The achievement is rewarded for playing the game for 100 ingame days.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Minecraft Achievement #2 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="community-item text-center rounded overflow-hidden">
+                            <img class="img-fluid" src="images/achievement-2.png" alt="Achievement #2: The End!">
+                            <div class="community-text">
+                                <div class="community-title">
+                                    <h5 class="text-light">The End!</h5>
+                                    <span class="text-info">Defeat the Ender Dragon</span>
+                                </div>
+                                <div class="community-social">
+                                    <p class="text-light text-center lh-1 my-3 p-3">The End achievement is one of the
+                                        best Minecraft achievement and is given when the Ender Dragon is killed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Minecraft Achievement #3 -->
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="community-item text-center rounded overflow-hidden">
+                            <img class="img-fluid" src="images/achievement-3.jpg" alt="Achievement #3: The Beginning?">
+                            <div class="community-text">
+                                <div class="community-title">
+                                    <h5 class="text-light">The Beginning?</h5>
+                                    <span class="text-info">Fight the Wither and live to tell the tale</span>
+                                </div>
+                                <div class="community-social">
+                                    <p class="text-light text-center lh-1 my-3 p-3">The Wither is considered by many to
+                                        be the most dangerous mob or boss in the entire game, so defeating it is no
+                                        small feat.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5-1">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div> <!-- mojang official logo -->
+                            <img class="mojang col-lg-3 col-md-6" src="images/mojang.png" alt="Mojang Official Logo">
+                        </div>
+                        <!--Social Media Accounts-->
+                        <div class="d-flex pt-2">
+                            <!--Youtube-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-1" href="https://www.youtube.com/minecraft" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                            <!--Twitter-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-1" href="https://twitter.com/Minecraft" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                            <!--Facebook-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/minecraft/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                            <!--Instagram-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-0" href="https://www.instagram.com/minecraft/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 logos"> <!-- xbox official logo -->
+                        <img class= "col-lg-3 col-md-6" src="images/xbox.png" alt="XBOX Official Logo">
+                    </div>
+                    
+                    <!--Quick Links-->
+                    <div class="col-lg-3 col-md-6 links logos">
+                        <h4 class="text-light text-uppercase mb-4">Quick Links</h4>
+                        <a class="text-about btn btn-link" href="about.html">About Us</a>
+                        <a class="text-about btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="text-about btn btn-link" href="how-to-play.html">Our Services</a>
+                        <a class="text-about btn btn-link" href="https://www.minecraft.net/en-us/terms" target="_blank">Terms & Condition</a>
+                        <a class="text-about btn btn-link" href="https://help.minecraft.net/hc/en-us" target="_blank">Support</a>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 logos"> <!-- esrb official logo -->
+                        <img class= "col-lg-3 col-md-6" src="images/esrb-rating.png" alt="ESRB Rating 10+ | Game Genre: Fantasy Violence">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--COPYRIGHT-->
+        <section class="copyright text-md-start text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+            <p>All Rights Reserved to Original Minecraft <br>
+            Mojang &copy;2009-2022. "Minecraft" is a trademark of Mojang Synergies AB <br><br>
+            <span class="name">&copy; All Copyright 2023 by Princess Jasmin S. Panilagao</span></p>
+        </section>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="animation-library/wow/wow.min.js"></script>
+    <script src="animation-library/easing/easing.min.js"></script>
+    <script src="animation-library/waypoints/waypoints.min.js"></script>
+    <script src="animation-library/counterup/counterup.min.js"></script>
+    <script src="animation-library/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Main Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
