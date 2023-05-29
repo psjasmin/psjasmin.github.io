@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <title>Mobs of Minecraft</title>
+
+    <!-- GOOGLE FONTS -->
+    <!-- Body text font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <!-- Header text font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Icons Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet (CSS Animations)-->
+    <link href="animation-library/animate/animate.min.css" rel="stylesheet">
+    <link href="animation-library/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main CSS Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-wool">
+        <!-- Spinner (Loading Screen) -->
+        <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+
+        <header>
+            <!--NAVIGATIONAL BAR-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                <!--Website Logo (Minecraft)-->
+                <img class="logo-primary m-0" src="images/main-logo.png" alt="Minecraft Logo">
+                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto p-4 p-lg-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="how-to-play.html" class="nav-item nav-link">How to Play</a>
+                        <a href="mobs.html" class="nav-item nav-link active">Mobs</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <!-- Download Now -->
+                    <div class="d-none d-lg-flex">
+                        <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                            <a class="text-center" href="https://www.minecraft.net/en-us/get-minecraft" target="_blank">
+                                <img src="images/dirt-block.png" alt="Minecraft Download Button">
+                            </a>
+                        </div>
+                        <div class="ps-3">
+                            <small class="text-primary mb-0">Get Minecraft</small>
+                            <p class="text-uppercase text-light fs-5 mb-0">Download Now</p>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!--PAGE HEADER (page cover/title/page details)-->
+            <section class="wow fadeIn" data-wow-delay="0.1s">
+                <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="container text-center pt-5 pb-3">
+                        <h1 class="display-4 text-white animated slideInDown mb-3">Mobs of Minecraft</h1>
+                        <p class="text-primary">Discover some of the different Mobs in Minecraft and their categories in the game—<br><i>passive, neutral, or hostile!</i></p>
+                    </div>
+                </div>
+                <img class="extra wow fadeIn" data-wow-delay="0.1s" src="images/texture-bg-1.png" alt="Texture Background">
+            </section>
+        </header>
+        
+        <main>
+            <!--PASSIVE MOBS-->
+            <section class="container-xxl my-6 py-7 pb-0">
+                <div class="container">
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <p class="text-primary text-uppercase mb-2">Makes Great Companionships</p>
+                        <h1 class="display-6 mb-4">Passive Mobs</h1>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel none wow fadeInUp" data-wow-delay="0.1s">
+
+                        <!-- PASSIVE MOB #1 - Axolotl -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Axolotl</h5>
+                                    <span>Passive bucketable aquatic mobs found in <b>Lush cave biomes</b>.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-5" src="images/MOBS/passive-axolotl.gif" alt="Minecraft Axolotl">
+                            </div>
+                        </div>
+
+                        <!-- PASSIVE MOB #2 - Sheep -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Sheep</h5>
+                                    <span>May drop <b>wool</b> or <b>raw mutton</b> when killed.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4-1" src="images/MOBS/passive-sheep.gif" alt="Minecraft Sheep">
+                            </div>
+                        </div>
+
+                        <!-- PASSIVE MOB #3 - Cat -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Cat</h5>
+                                    <span>A <b>tamed cat</b> makes great companionship as it scares away creepers.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4-1" src="images/MOBS/passive-cat.gif" alt="Minecraft Cat">
+                            </div>
+                        </div>
+                        
+                        <!-- PASSIVE MOB #4 - Allay -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Allay</h5>
+                                    <span>Collects all of the surrounding items that matches the item it is holding.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4" src="images/MOBS/passive-allay.gif" alt="Minecraft Allay">
+                            </div>
+                        </div>
+
+                        <!-- PASSIVE MOB #5 - Panda -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Panda</h5>
+                                    <span>Pandas can be persuaded to follow you if you hold <b>bamboo</b>.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4-1" src="images/MOBS/passive-panda.gif" alt="Minecraft Panda">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <img class="extra-up" src="images/texture-bg-2.png" alt="Texture Background">
+
+            <!--NEUTRAL MOBS-->
+            <section class="bg-primary container-xxl my-7 py-6 pb-0">
+                <div class="container">
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <p class="text-primary text-uppercase mb-2">Attacks when Provoked</p>
+                        <h1 class="display-6 mb-4">Neutral Mobs</h1>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel none wow fadeInUp" data-wow-delay="0.1s">
+
+                        <!-- NUETRAL MOB #1 - Bee -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Bee</h5>
+                                    <span class="text-light">When attacked, a bee will sting the player inflicting them with the <b>Poison effect</b>.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4" src="images/MOBS/neutral-bee.gif" alt="Minecraft Bee">
+                            </div>
+                        </div>
+
+                        <!-- NUETRAL MOB #2 - Wolf -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Wolf</h5>
+                                    <span class="text-light">A wolf jumps and tries to bite when attacked. However, it makes a great companion when tamed.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4-1" src="images/MOBS/neutral-wolf.gif" alt="Minecraft Wolf">
+                            </div>
+                        </div>
+
+                        <!-- NUETRAL MOB #3 - Llama -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Llama</h5>
+                                    <span class="text-light">A llama will spit at the player when attacked.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-5" src="images/MOBS/neutral-llama.gif" alt="Minecraft Llama">
+                            </div>
+                        </div>
+                        
+                        <!-- NUETRAL MOB #4 - Pufferfish -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Pufferfish</h5>
+                                    <span class="text-light">Will not directly attack. But when the player is in its vicinity, it will puff up and give them the <b>Poison effect</b> for 7 seconds.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4-1" src="images/MOBS/neutral-pufferfish.gif" alt="Minecraft Pufferfish">
+                            </div>
+                        </div>
+
+                        <!-- NUETRAL MOB #5 - Iron Golem -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Iron Golem</h5>
+                                    <span class="text-light">The purpose of the iron golem is to <b>defend villages</b> from mob attacks.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-3-1" src="images/MOBS/neutral-golem.gif" alt="Minecraft Iron Golem">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <img class="extra" src="images/texture-bg-1.png" alt="Texture Background">
+
+            <!--HOSTILE MOBS-->
+            <section class="bg-wool container-xxl my-6 py-7 pb-0">
+                <div class="container">
+                    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                        <p class="text-primary text-uppercase mb-2">Monsters of Minecraft</p>
+                        <h1 class="display-6 mb-4">Hostile Mobs</h1>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel none wow fadeInUp" data-wow-delay="0.1s">
+
+                        <!-- HOSTILE MOB #1 - Creeper -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Creeper</h5>
+                                    <span>Uses <b>TNT</b> as a weapon. When you kill a creeper, it will drop gunpowder.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-2" src="images/MOBS/hostile-creeper.gif" alt="Minecraft Creeper">
+                            </div>
+                        </div>
+
+                        <!-- HOSTILE MOB #2 - Zombie -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Zombie</h5>
+                                    <span>Deals <b>melee damage</b>. Drops 0-2 pieces of rotten flesh when killed.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-4-1" src="images/MOBS/hostile-zombie.gif" alt="Minecraft Zombie">
+                            </div>
+                        </div>
+
+                        <!-- HOSTILE MOB #3 - Skeleton -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Skeleton</h5>
+                                    <span>The skeleton is armed with a <b>bow</b> and <b>arrow</b> as a weapon.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-3-1" src="images/MOBS/hostile-skeleton.gif" alt="Minecraft Skeleton">
+                            </div>
+                        </div>
+                        
+                        <!-- HOSTILE MOB #4 - Witch -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Witch</h5>
+                                    <span>Throws harmful splash potions causing player damage until they die.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-6" src="images/MOBS/hostile-witch.gif" alt="Minecraft Witch">
+                            </div>
+                        </div>
+
+                        <!-- HOSTILE MOB #5 - Enderman -->
+                        <div class="rounded p-4">
+                            <div class="d-flex align-items-center mb-4">
+                                <div class="text-center">
+                                    <h5 class="text-primary mb-1">Enderman</h5>
+                                    <span>Attacks players that damage it or look directly at its face.</span>
+                                </div>
+                            </div>
+                            <div class="text-center align-items-center mb-4">
+                                <img class="mobs-6" src="images/MOBS/hostile-enderman.gif" alt="Minecraft Enderman">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!--FOOTER-->
+    <footer>
+        <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5-1">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div> <!-- mojang official logo -->
+                            <img class="mojang col-lg-3 col-md-6" src="images/mojang.png" alt="Mojang Official Logo">
+                        </div>
+                        <!--Social Media Accounts-->
+                        <div class="d-flex pt-2">
+                            <!--Youtube-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-1" href="https://www.youtube.com/minecraft" target="_blank"><i
+                                class="fab fa-youtube"></i></a>
+                            <!--Twitter-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-1" href="https://twitter.com/Minecraft" target="_blank"><i
+                                class="fab fa-twitter"></i></a>
+                            <!--Facebook-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/minecraft/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                            <!--Instagram-->
+                            <a class="btn true btn-square btn-outline-light rounded-circle me-0" href="https://www.instagram.com/minecraft/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 col-md-6 logos"> <!-- xbox official logo -->
+                        <img class= "col-lg-3 col-md-6" src="images/xbox.png" alt="XBOX Official Logo">
+                    </div>
+                    
+                    <!--Quick Links-->
+                    <div class="col-lg-3 col-md-6 links logos">
+                        <h4 class="text-light text-uppercase mb-4">Quick Links</h4>
+                        <a class="text-about btn btn-link" href="about.html">About Us</a>
+                        <a class="text-about btn btn-link" href="contact.html">Contact Us</a>
+                        <a class="text-about btn btn-link" href="how-to-play.html">Our Services</a>
+                        <a class="text-about btn btn-link" href="https://www.minecraft.net/en-us/terms" target="_blank">Terms & Condition</a>
+                        <a class="text-about btn btn-link" href="https://help.minecraft.net/hc/en-us" target="_blank">Support</a>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 logos"> <!-- esrb official logo -->
+                        <img class= "col-lg-3 col-md-6" src="images/esrb-rating.png" alt="ESRB Rating 10+ | Game Genre: Fantasy Violence">
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--COPYRIGHT-->
+        <section class="copyright text-md-start text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+            <p>All Rights Reserved to Original Minecraft <br>
+            Mojang &copy;2009-2022. "Minecraft" is a trademark of Mojang Synergies AB <br><br>
+            <span class="name">&copy; All Copyright 2023 by Princess Jasmin S. Panilagao</span></p>
+        </section>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="animation-library/wow/wow.min.js"></script>
+    <script src="animation-library/easing/easing.min.js"></script>
+    <script src="animation-library/waypoints/waypoints.min.js"></script>
+    <script src="animation-library/counterup/counterup.min.js"></script>
+    <script src="animation-library/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Main Javascript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
